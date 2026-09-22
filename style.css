@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: bai jamjuree, sans-serif;
+  color: hsl(210, 10%, 33%);
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.5rem;
+  text-align: center;
+}
+
+main {
+  background-color: hsl(0, 0%, 100%);
+  margin: 0 auto;
+  max-width: 1440px;
+}
+
+header img {
+    position:absolute;
+}
+
+.wrapper {
+    margin-bottom: 100px;
+}
+
+.logo {
+    margin: 150px 50px 50px 50px;
+}
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.content {
+    color: hsl(201, 11%, 66%);
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+
+button {
+    padding: 12px 40px;
+    border: none;
+    border-radius: 100px;
+    color: #ffffff;
+    font-family: 'bai jamjuree';
+    font-size: 16px;
+}
+
+.green-button {
+    background-color: hsl(171, 66%, 44%);
+    box-shadow: 0 3px 0 hsl(171, 74%, 35%);
+}
+
+.blue-button {
+    background-color: hsl(233, 100%, 69%);
+    box-shadow: 0 3px 0 hsl(233, 83%, 58%);
+}
+
+
+.attribution {
+  font-size: 0.6875rem;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
