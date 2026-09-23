@@ -4,10 +4,15 @@
   box-sizing: border-box;
   font-family: bai jamjuree, sans-serif;
   color: hsl(210, 10%, 33%);
-  font-size: 18px;
   font-weight: 600;
-  line-height: 1.5rem;
-  text-align: center;
+  line-height: 1.7;
+  letter-spacing: 1px;
+}
+
+body {
+    text-align: center;
+    max-width: 1440px;
+    margin: auto;
 }
 
 main {
@@ -16,26 +21,28 @@ main {
   max-width: 1440px;
 }
 
-header img {
-    position:absolute;
+header {
+    background: url(images/bg-header-desktop.png) no-repeat;
+    background-size: contain
 }
-
+ 
 .wrapper {
-    margin-bottom: 100px;
+    margin-bottom: 150px;
 }
 
 .logo {
-    margin: 150px 50px 50px 50px;
+    margin: 170px 50px 100px 50px;
 }
 
 h1 {
-    font-size: 2rem;
+    font-size: 2.8rem;
     margin-bottom: 20px;
 }
 
 .content {
     color: hsl(201, 11%, 66%);
     font-weight: 400;
+    font-size: 1.3rem;
     margin-bottom: 40px;
 }
 
@@ -45,7 +52,9 @@ button {
     border-radius: 100px;
     color: #ffffff;
     font-family: 'bai jamjuree';
-    font-size: 16px;
+    font-size: 1.3rem;
+    letter: spacing 1px;
+    margin-left: 20px;
 }
 
 .green-button {
@@ -58,6 +67,69 @@ button {
     box-shadow: 0 3px 0 hsl(233, 83%, 58%);
 }
 
+button:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.wrapper2 {
+    display: flex;
+    text-align: left;
+    margin-top: 100px;
+    max-width: 690px;
+}
+
+.device-image {
+    width:50%;
+}
+
+.block {
+    margin: 80px 0px 0px 150px;
+}
+
+h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;    
+}
+
+.snippet {
+    color: hsl(201, 11%, 66%);
+    font-weight: 400;    
+    margin-bottom: 20px;
+    font-size: 1.1rem;
+}
+
+p {
+    color: hsl(210, 10%, 33%);
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.device-image {
+    margin-top: 100px;
+}
+
+.wrapper3 {
+  display: flex;
+  margin: 70px;
+}
+
+.block2 {
+    margin-left: 50px;
+}
+
+.block2 img {
+    margin-bottom: 20px;
+}
+
+.img_wrapper {
+    margin: 150px 0px 150px 0px;
+}
+
+.img_wrapper img {
+    margin: 0px 100px 0px 0px;
+    width: 180px;
+}
 
 .attribution {
   font-size: 0.6875rem;
